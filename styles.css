@@ -32,6 +32,58 @@ body {
   object-fit: cover;
 }
 
+/* Seccion workout */
+.workout-wrapper {
+  position: relative;
+  height: 200px;
+  margin-bottom: 1.5rem;
+}
 
+/* Fondo negro inclinado */
+.workout-background {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #000;
+  transform: rotate(-6deg);
+  border-radius: 1.5rem;
+  z-index: 1;
+}
+
+/* Tarjeta principal */
+.workout-card.angled {
+  position: relative;
+  background: linear-gradient(135deg, #7f55ff, #5b2fff);
+  color: #fff;
+  padding: 1.5rem;
+  border-radius: 1.5rem;
+  z-index: 2;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.workout-card h2 {
+  margin: 0.3rem 0;
+}
+
+.timer {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+
+.start-button {
+  background: #ff7f50;
+  color: white;
+  border: none;
+  padding: 0.7rem 1.5rem;
+  border-radius: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 0.5rem;
+  font-size: 1rem;
+}
 
 
