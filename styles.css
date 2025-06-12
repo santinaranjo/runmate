@@ -199,5 +199,78 @@ body {
   height: 80%;
 }
 
+.calories-section {
+  margin-bottom: 2rem;
+}
+
+.calories-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.calories-card {
+  background-color: #000;
+  border-radius: 1.5rem;
+  padding: 1rem;
+  color: white;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Burbujas de emoji */
+.icon-bubble {
+  width: 32px;
+  height: 32px;
+  background-color: #f0f0f0;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+}
+
+/* Barras */
+.calories-graph {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  height: 60px;
+  margin: 1rem 0;
+}
+
+.calories-graph .bar {
+  width: 8%;
+  background: #333;
+  border-radius: 1rem;
+  transition: height 0.3s ease;
+}
+
+.calories-graph .bar.tiny {
+  height: 20%;
+}
+
+.calories-graph .bar.small {
+  height: 35%;
+}
+
+.calories-graph .bar.medium {
+  height: 55%;
+}
+
+.calories-graph .bar.large {
+  height: 80%;
+}
+
+.calories-graph .bar.highlight {
+  background-color: #ff7f50;
+}
+
+/* Texto final */
+.calories-value {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
 
 
